@@ -2,17 +2,16 @@ import googlemaps
 from dotenv import load_dotenv
 import os
 import pandas as pd
+import datetime
 
-# Load environment variables from API_KEYS.env file
+# Load environment variables
 load_dotenv("API_KEYS.env")
-
-# Get your API key from the environment variables
 api_key = os.getenv("GOOGLE_API_KEY")
 
-# Create a client instance for the Google Maps API
+# Create a Google Maps client instance
 gmaps = googlemaps.Client(key=api_key)
 
-# Function to get places data
+# Define the function to get places data
 def get_places_data(query):
     try:
         places_result = gmaps.places(query)
@@ -21,7 +20,7 @@ def get_places_data(query):
         print("Error:", e)
         return []
 
-# Function to get place details including reviews
+# Define the function to get place details including reviews
 def get_place_details(place_id):
     try:
         place_details = gmaps.place(place_id=place_id, fields=['reviews'])
@@ -30,8 +29,7 @@ def get_place_details(place_id):
         print("Error:", e)
         return []
 
-# Main function to fetch data and save as CSV
-
+# Main function
 def main():
     cities = ["New York", "Los Angeles", "Chicago", "Miami", "Houston"]
     all_reviews = []
@@ -54,9 +52,10 @@ def main():
                 all_reviews.append(review_data)
 
     df = pd.DataFrame(all_reviews)
-    df.to_csv('google_places_reviews_across_cities.csv', index=False)
-    print("Data exported to CSV file.")
+    current_date = datetime.datetime.now().strftime("%Y%m%d")
+    output_filename = f'google_places_raw_{current_date}.csv'
+    df.to_csv(output_filename, index=False)
+    print(f"Data exported to CSV file: {output_filename}")
 
 if __name__ == "__main__":
     main()
-

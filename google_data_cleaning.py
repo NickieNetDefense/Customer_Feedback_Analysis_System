@@ -34,7 +34,7 @@ def save_cleaned_data(df, file_path):
     df.to_csv(file_path, index=False)
 
 if __name__ == "__main__":
-    input_file = r'C:\Users\e_nic\Desktop\My Projects\customer feedback analysis system\Customer_Feedback_Analysis_System\google_places_raw_2031215.csv'
+    input_file = r'C:\Users\e_nic\Desktop\My Projects\customer feedback analysis system\Customer_Feedback_Analysis_System\google_places_raw_20231215.csv'
     current_date = datetime.datetime.now().strftime("%Y%m%d")  # Format: YYYYMMDD
     output_file = r'C:\Users\e_nic\Desktop\My Projects\customer feedback analysis system\Customer_Feedback_Analysis_System\google_clean_data_{}.csv'.format(current_date)
 
