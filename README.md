@@ -80,4 +80,19 @@ Data Collection and Dataset Preparation
 	- Sensitive data such as customer names and contact details were anonymized or removed from the dataset.
 	- Access to the data and project files was restricted to authorized team members only.
 Data Processing and Exploration
+- [] Data Preprocessing
+- [] Data Loading
+- [] Data Exploration 
+Exploratory Data Analysis
+- [] Univariate Analysis
+- [] Bivariate Analysis
+- [] Mulitvariate Analysis
+- [] Insights and Conclusions
+Basic NLP Implementation
+Building & Testing a Simple Sentimental Analysis Model
+Refining Sentiment Analysis Model
+Text Summarization Implementation
+Improving Text Summarization Model and Keyword Extraction
+Integration of NLP Models and Initial Data Visualization
+Power Bi Visualizations and Dashboard Creation
 
