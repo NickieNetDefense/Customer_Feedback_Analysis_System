@@ -41,7 +41,7 @@ This project is licensed under the [GNU General Public License (GPL)](link-to-li
 
 ## Acknowledgments
 
-- Special thanks to Dan Ng for valuable feedback.
+- Special thanks to Dan Ng for valuable feedback, Cris for the inspiration, and my family for all of their love and support.
 
 This project relies on the following libraries and tools:
 
