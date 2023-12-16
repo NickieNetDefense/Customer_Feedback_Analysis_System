@@ -9,6 +9,8 @@ A project for analyzing and visualizing customer feedback data.
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
+- [Libraries & Tools](#libraries--tools)
+- [Project Roadmap](#project-roadmap)
 
 ## Installation
 
@@ -43,6 +45,8 @@ This project is licensed under the [GNU General Public License (GPL)](link-to-li
 
 - Special thanks to Dan Ng for valuable feedback, Cris for the inspiration, and my family for all of their love and support.
 
+## Libraries & Tools
+
 This project relies on the following libraries and tools:
 
 - [spaCy](https://spacy.io/usage): A powerful NLP library for Python.
@@ -57,3 +61,23 @@ This project relies on the following libraries and tools:
 - [Databricks Community Edition](https://databricks.com/try-databricks): An environment for data engineering and analytics.
 
 These tools and libraries are essential for various aspects of this project, from data processing to natural language processing and data visualization.
+
+## Project Roadmap
+Data Collection and Dataset Preparation
+- [x] Data Collection
+	- Data was collected from Google Places API to gather customer reviews and ratings for resturants.
+	- The collected data was sotred in CSV files for further analysis.
+- [x] Data Cleaning
+	- Basic data cleaning was performed on the collected data to ensure its quality.
+	- Missing values were handled, duplicate entries were removed, and text with fewer than 3 words was filtered out.
+	- The cleaned data was saved to separate CSV files.
+- [x] Dataset Prepration
+	- A separate Python script was created to prepare the data for analysis.
+	- The script loaded the cleaned data, organized it into a clean DataFrame, and defined columns and data types.
+	- The resulting data was saved in a structured format for analysis.
+- [x] Data Security Steps
+	- Data security measures were taken to protect sensitive customer information.
+	- Sensitive data such as customer names and contact details were anonymized or removed from the dataset.
+	- Access to the data and project files was restricted to authorized team members only.
+Data Processing and Exploration
+
