@@ -89,6 +89,7 @@ Exploratory Data Analysis
 - [] Mulitvariate Analysis
 - [] Insights and Conclusions
 Basic NLP Implementation
+- [ ]
 Building & Testing a Simple Sentimental Analysis Model
 Refining Sentiment Analysis Model
 Text Summarization Implementation
