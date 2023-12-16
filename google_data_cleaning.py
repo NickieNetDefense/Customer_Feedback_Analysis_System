@@ -1,5 +1,6 @@
 import pandas as pd
 import datetime
+import re
 
 def load_data(file_path):
     """
@@ -21,7 +22,8 @@ def clean_data(df):
     # Removing duplicate entries
     df = df.drop_duplicates()
 
-    # Additional cleaning steps can be added here
+    # Filter rows with text containing fewer than 3 words
+    df = df[df['text'].apply(lambda x: len(re.findall(r'\w+', x))) > 2]
 
     return df
 
