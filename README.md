@@ -65,7 +65,7 @@ These tools and libraries are essential for various aspects of this project, fro
 ## Project Roadmap
 Data Collection and Dataset Preparation
 - [x] Data Collection
-	- Data was collected from Google Places API to gather customer reviews and ratings from resturants. (sampele size)
+	- Data was collected from Google Places API to gather customer reviews and ratings from resturants. (sample size)
 	- The collected data was sotred in CSV files for further analysis.
 - [x] Data Cleaning
 	- Basic data cleaning was performed on the collected data to ensure its quality.
