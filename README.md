@@ -66,7 +66,7 @@ These tools and libraries are essential for various aspects of this project, fro
 Data Collection and Dataset Preparation
 - [x] Data Collection
 	- Data was collected from Google Places API to gather customer reviews and ratings from resturants. (sample size)
-	- The collected data was sotred in CSV files for further analysis.
+	- The collected data was stored in CSV files for further analysis.
 - [x] Data Cleaning
 	- Basic data cleaning was performed on the collected data to ensure its quality.
 	- Missing values were handled, duplicate entries were removed, and text with fewer than 3 words was filtered out.
