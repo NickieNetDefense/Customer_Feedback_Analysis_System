@@ -1,6 +1,11 @@
 # Customer Feedback Analysis System
 
-A project for analyzing and visualizing customer feedback data.
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![License](https://img.shields.io/badge/license-GPL-green.svg)
+
+A comprehensive project for analyzing and visualizing customer feedback data from restaurants. This system leverages natural language processing (NLP) techniques to extract insights from customer reviews, providing valuable information for business decision-making.
+
+Nickie add this *A screenshot of the data visualization dashboard with various charts, graphs, and key metrics. Show the final dashboard created with Power BI to demonstrate the end result 
 
 ## Table of Contents
 
@@ -19,6 +24,10 @@ Follow these steps to install and set up the project:
 1. Clone the repository: `git clone https://github.com/ellisperez47/Customer_Feedback_Analysis_System.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Configure settings: Edit the `config.ini` file with your API keys.
+
+Nickie to add * Capture the command line or terminal window showing the execution of key scripts. Helps users understand how to run the project. Running the main script with input and output parameters.
+
+Nickie to add * A screenshot of the config.ini file or any other configuration settings. Provides a visual guide for users on how to set up their configuration. The section of the config file where API keys are entered.
 
 ## Usage
 
@@ -71,6 +80,7 @@ Data Collection and Dataset Preparation
 	- Basic data cleaning was performed on the collected data to ensure its quality.
 	- Missing values were handled, duplicate entries were removed, and text with fewer than 3 words was filtered out.
 	- The cleaned data was saved to separate CSV files.
+Nickie to add * Screenshots of intermediate steps in data processing, such as data cleaning or preprocessing. Shows the workflow and the transformation of data.  A Jupyter Notebook cell output showing cleaned data.
 - [x] Dataset Prepration
 	- A separate Python script was created to prepare the data for analysis.
 	- The script loaded the cleaned data, organized it into a clean DataFrame, and defined columns and data types.
@@ -94,12 +104,15 @@ Building & Testing a Simple Sentimental Analysis Model
 - [ ]
 Refining Sentiment Analysis Model
 - [ ]
+Nickie to add * Visual representation of sentiment analysis results. Illustrates the effectiveness of the sentiment analysis model.A table or chart showing sentiment scores for a sample of reviews.
 Text Summarization Implementation
 - [ ]
 Improving Text Summarization Model and Keyword Extraction
 - [ ]
+Nickie to add * Output of the text summarization model. Demonstrates the capability of summarizing customer feedback.Original review text alongside its summarized version.
 Integration of NLP Models and Initial Data Visualization
 - [ ]
 Power Bi Visualizations and Dashboard Creation
 - [ ]
+Nickie add this *A bar chart showing the distribution of sentiment scores or a word cloud of frequently mentioned terms.
 
